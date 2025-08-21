@@ -1,0 +1,1104 @@
+{
+  "summary": {
+    "totalLogsProcessed": 43,
+    "totalEventsDecoded": 43,
+    "protocolsIdentified": {
+      "ERC20": [
+        "Tether USD",
+        "Wrapped BTC",
+        "USD Coin"
+      ],
+      "Contract": [
+        "Aave V3 Lending Pool",
+        "Aave V3 Gateway",
+        "Aave V3 Incentives Controller"
+      ],
+      "Unknown": [
+        "Unknown"
+      ],
+      "Protocol": [
+        "Uniswap V3: NonfungiblePositionManager",
+        "Aave V3 Pool"
+      ]
+    },
+    "eventTypeDistribution": {
+      "Transfer": 19,
+      "Deposit": 1,
+      "Withdraw": 1,
+      "Unknown Event": 12,
+      "Approval": 10
+    },
+    "processingTimestamp": "2025-08-21T12:30:00Z"
+  },
+  "eventsByProtocol": {
+    "ERC20": [
+      {
+        "transactionHash": "0x9ee0c523f0b9f856cb1d75dc62075be0d0e6d83ffaf3cd1627e6e49c3e734f7a",
+        "blockNumber": 19003465,
+        "logIndex": 82,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x00000000000000000000000016786ffbd087684b0c09d6e66f91c71c7d722365",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x16786ffbd087684b0c09d6e66f91c71c7d722365",
+          "value": 750000000
+        },
+        "humanReadable": {
+          "action": "Transfer of 750000000 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x16786ffbd087684b0c09d6e66f91c71c7d722365",
+          "amount": 750000000
+        }
+      },
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 476,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Deposit",
+        "eventSignature": [
+          "0xab8530f87dc9b59234c4623bf917212bb2536d647574c8e7e5da92c2ede0c9f8",
+          "0x000000000000000000000000c4922d64a24675e16e1586e3e3aa56c06fabe907",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Deposit",
+          "user": "0xc4922d64a24675e16e1586e3e3aa56c06fabe907",
+          "value": 1001000000
+        },
+        "humanReadable": {
+          "action": "Deposit of 1001000000 tokens",
+          "user": "0xc4922d64a24675e16e1586e3e3aa56c06fabe907",
+          "amount": 1001000000
+        }
+      },
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 477,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 1001000000
+        },
+        "humanReadable": {
+          "action": "Transfer of 1001000000 tokens",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 1001000000
+        }
+      },
+      {
+        "transactionHash": "0x2a606de573ba9f728cbf943867cbada80f72505b46a84e88a604e281a94fd105",
+        "blockNumber": 21014167,
+        "logIndex": 286,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000f2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "value": 450000000
+        },
+        "humanReadable": {
+          "action": "Approval of 450000000 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "amount": 450000000
+        }
+      },
+      {
+        "transactionHash": "0xd9f0bbed03b38c3d2ffaae0588d3ef7934da2267aa481a7cf23c111ca703ab2a",
+        "blockNumber": 21014169,
+        "logIndex": 100,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000f2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "value": 450000000
+        },
+        "humanReadable": {
+          "action": "Transfer of 450000000 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "amount": 450000000
+        }
+      },
+      {
+        "transactionHash": "0xd9f0bbed03b38c3d2ffaae0588d3ef7934da2267aa481a7cf23c111ca703ab2a",
+        "blockNumber": 21014169,
+        "logIndex": 105,
+        "protocol": "Tether USD",
+        "protocolType": "ERC20",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000f2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 450167866
+        },
+        "humanReadable": {
+          "action": "Transfer of 450167866 tokens",
+          "from": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 450167866
+        }
+      },
+      {
+        "transactionHash": "0x3df7b6368e9916ae7d955f4bcc5d77583cc27280e30366ea8bc0d1722bcf47bc",
+        "blockNumber": 21014173,
+        "logIndex": 278,
+        "protocol": "Tether USD",
+        "protocolType": "ERC20",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0x61f69cb432e958f17af5e9df8daaecde59401547b5f7f6e83533b77522adfbf5",
+        "blockNumber": 21014176,
+        "logIndex": 242,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0x32ff485ded547a4e7f228569b76ae014260e4d8d9a6ea0e17739956c6c1bda10",
+        "blockNumber": 21014186,
+        "logIndex": 238,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "value": 456746479
+        },
+        "humanReadable": {
+          "action": "Transfer of 456746479 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "amount": 456746479
+        }
+      },
+      {
+        "transactionHash": "0x32ff485ded547a4e7f228569b76ae014260e4d8d9a6ea0e17739956c6c1bda10",
+        "blockNumber": 21014186,
+        "logIndex": 239,
+        "protocol": "Tether USD",
+        "protocolType": "ERC20",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "value": 450167866
+        },
+        "humanReadable": {
+          "action": "Transfer of 450167866 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "amount": 450167866
+        }
+      },
+      {
+        "transactionHash": "0x6faf78c38a18c5764901df22a818d4e3d3b488035e170d955f07c790faa05679",
+        "blockNumber": 21048661,
+        "logIndex": 310,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 813653
+        },
+        "humanReadable": {
+          "action": "Transfer of 813653 tokens",
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 813653
+        }
+      },
+      {
+        "transactionHash": "0x6faf78c38a18c5764901df22a818d4e3d3b488035e170d955f07c790faa05679",
+        "blockNumber": 21048661,
+        "logIndex": 311,
+        "protocol": "Tether USD",
+        "protocolType": "ERC20",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 908013673
+        },
+        "humanReadable": {
+          "action": "Transfer of 908013673 tokens",
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 908013673
+        }
+      },
+      {
+        "transactionHash": "0xb0c405eec8d9035ccc19bdab6839b35482d79ba2dccfec020a661707460f6ef5",
+        "blockNumber": 21048682,
+        "logIndex": 336,
+        "protocol": "Tether USD",
+        "protocolType": "ERC20",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000c92e8bdf79f0507f65a392b0ab4667716bfe0110",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0xc8db44271726231dbdd53b890dede38804fc4e0c077c7daf49b8e9ee4ff3bef1",
+        "blockNumber": 21049943,
+        "logIndex": 153,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x00000000000000000000000087870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 202,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x00000000000000000000000098c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "value": 901000000
+        },
+        "humanReadable": {
+          "action": "Transfer of 901000000 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "amount": 901000000
+        }
+      },
+      {
+        "transactionHash": "0x94960c4a9c3b1b48a3d9378091da57047902b708e1da8c0d7c04a9e414655e0f",
+        "blockNumber": 21165983,
+        "logIndex": 297,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000c21e4ebd1d92036cb467b53fe3258f219d909eb9",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc21e4ebd1d92036cb467b53fe3258f219d909eb9",
+          "value": 48895900
+        },
+        "humanReadable": {
+          "action": "Approval of 48895900 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc21e4ebd1d92036cb467b53fe3258f219d909eb9",
+          "amount": 48895900
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 77,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000098c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 905550637
+        },
+        "humanReadable": {
+          "action": "Transfer of 905550637 tokens",
+          "from": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 905550637
+        }
+      },
+      {
+        "transactionHash": "0xe47863731e54e43e27291fefae360bf108eb67eaaef3d03bd3361db2028d0dad",
+        "blockNumber": 21831735,
+        "logIndex": 316,
+        "protocol": "Wrapped BTC",
+        "protocolType": "ERC20",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba3",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0xe9aa76153142c3267eb795cebc46c2299359f8b1bcef951762dea14228539118",
+        "blockNumber": 21831735,
+        "logIndex": 317,
+        "protocol": "Wrapped BTC",
+        "protocolType": "ERC20",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba3",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0x979c32abe601b217c18ecd9ab3332c1c17201e66b05a231016aa4d3b34c6b386",
+        "blockNumber": 21831738,
+        "logIndex": 589,
+        "protocol": "Wrapped BTC",
+        "protocolType": "ERC20",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000cbcdf9626bc03e24f779434178a73a0b4bad62ed",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+          "value": 50000
+        },
+        "humanReadable": {
+          "action": "Transfer of 50000 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+          "amount": 50000
+        }
+      },
+      {
+        "transactionHash": "0x0069d2733f9ba2b9a290b4d91d5375ffc12334de4ca6fb55dd182f4f63f1e2f8",
+        "blockNumber": 22444982,
+        "logIndex": 230,
+        "protocol": "Wrapped BTC",
+        "protocolType": "ERC20",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000ac4c6e212a361c968f1725b4d055b47e63f80b75",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xac4c6e212a361c968f1725b4d055b47e63f80b75",
+          "value": 455919
+        },
+        "humanReadable": {
+          "action": "Approval of 455919 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xac4c6e212a361c968f1725b4d055b47e63f80b75",
+          "amount": 455919
+        }
+      },
+      {
+        "transactionHash": "0x289e59a29b29b6ea73bdc5e244a0bee599eabd7943a674f49fec517ef13689e3",
+        "blockNumber": 22444984,
+        "logIndex": 261,
+        "protocol": "Wrapped BTC",
+        "protocolType": "ERC20",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000003ced11c610556e5292fbc2e75d68c3899098c14c",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "value": 455919
+        },
+        "humanReadable": {
+          "action": "Transfer of 455919 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "amount": 455919
+        }
+      },
+      {
+        "transactionHash": "0x289e59a29b29b6ea73bdc5e244a0bee599eabd7943a674f49fec517ef13689e3",
+        "blockNumber": 22444984,
+        "logIndex": 269,
+        "protocol": "USD Coin",
+        "protocolType": "ERC20",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000003ced11c610556e5292fbc2e75d68c3899098c14c",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 467239850
+        },
+        "humanReadable": {
+          "action": "Transfer of 467239850 tokens",
+          "from": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 467239850
+        }
+      }
+    ],
+    "Contract": [
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 478,
+        "protocol": "Aave V3 Gateway",
+        "protocolType": "Contract",
+        "contractAddress": "0xbd3fa81b58ba92a82136038b25adec7066af3155",
+        "eventName": "Withdraw",
+        "eventSignature": [
+          "0x1b2a7ff080b8cb6ff436ce0372e399692bbfb6d4ae5766fd8d58a7b8cc6142e6",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          null
+        ],
+        "decodedData": {
+          "event": "Withdraw",
+          "user": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 1001000000
+        },
+        "humanReadable": {
+          "action": "Withdrawal of 1001000000 tokens",
+          "user": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 1001000000
+        }
+      },
+      {
+        "transactionHash": "0xd9f0bbed03b38c3d2ffaae0588d3ef7934da2267aa481a7cf23c111ca703ab2a",
+        "blockNumber": 21014169,
+        "logIndex": 106,
+        "protocol": "Aave V3 Incentives Controller",
+        "protocolType": "Contract",
+        "contractAddress": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x2db5ddd0b42bdbca0d69ea16f234a870a485854ae0d91f16643d6f317d8b8994",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "0x000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7"
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 203,
+        "protocol": "Aave V3 Lending Pool",
+        "protocolType": "Contract",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 901000000
+        },
+        "humanReadable": {
+          "action": "Transfer of 901000000 tokens",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 901000000
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 204,
+        "protocol": "Aave V3 Lending Pool",
+        "protocolType": "Contract",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x458f5fa412d0f69b08dd84872b0215675cc67bc1d5b6fd93300a1c3878b86196",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 75,
+        "protocol": "Aave V3 Lending Pool",
+        "protocolType": "Contract",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x0000000000000000000000000000000000000000",
+          "value": 901000000
+        },
+        "humanReadable": {
+          "action": "Transfer of 901000000 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x0000000000000000000000000000000000000000",
+          "amount": 901000000
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 76,
+        "protocol": "Aave V3 Lending Pool",
+        "protocolType": "Contract",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x4cf25bc1d991c17529c25213d3cc0cda295eeaad5f13f361969b12ea48015f90",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      }
+    ],
+    "Unknown": [
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 479,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0x0a992d191deec32afe36203ad87d7d289a738f81",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x58200b4c34ae05ee816d710053fff3fb75af4395915d3d2a771b24aa10e3cc5d",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000000000000000000000000000000000000004c2e1",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x979c32abe601b217c18ecd9ab3332c1c17201e66b05a231016aa4d3b34c6b386",
+        "blockNumber": 21831738,
+        "logIndex": 587,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0xc6a377bfc4eb120024a8ac08eef205be16b817020812c73223e81d1bdb9708ec",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000002260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "0x00000000000000000000000066a9893cc07d91d95644aedd05d03f95e1dba8af"
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x3b8015429dd454d344f0b9558e4d9dc823c8f2179a339b617475bccecf736326",
+        "blockNumber": 21831804,
+        "logIndex": 399,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0x4e502ab1bb313b3c1311eb0d11b31a6b62988b86",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000000000000000000000000000000000000000000db7"
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 0
+        },
+        "humanReadable": {
+          "action": "Transfer of 0 tokens",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 0
+        }
+      },
+      {
+        "transactionHash": "0x3b8015429dd454d344f0b9558e4d9dc823c8f2179a339b617475bccecf736326",
+        "blockNumber": 21831804,
+        "logIndex": 400,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0x4e502ab1bb313b3c1311eb0d11b31a6b62988b86",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x25b428dfde728ccfaddad7e29e4ac23c24ed7fd1a6e3e3f91894a9a073f5dfff",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null,
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0xcf142edd7a88c6f492d8c87a12e21c40630c5c85bbb332211c222c8039c02de9",
+        "blockNumber": 22954508,
+        "logIndex": 521,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 2732001358771917
+        },
+        "humanReadable": {
+          "action": "Transfer of 2732001358771917 tokens",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 2732001358771917
+        }
+      },
+      {
+        "transactionHash": "0xcf142edd7a88c6f492d8c87a12e21c40630c5c85bbb332211c222c8039c02de9",
+        "blockNumber": 22954508,
+        "logIndex": 523,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0xe28a9e1df63912c0c77b586c53595df741cbbc554d6831e40f1b5453199a9630",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0xccfea893b4e3e380c4d912a7c6496482075c08ccd8bab6b5b2ed4a6fba56bc67",
+        "blockNumber": 22954525,
+        "logIndex": 217,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0xc3ee9f2e5fda98e8066a1f745b2df9285f416fe98cf2559cd21484b3d8743304",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000005accc90436492f24e6af278569691e2c942a676d",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x108c6e5935302710192d1f17b77d956b434a3af1bd02ff253612e31c135d992c",
+        "blockNumber": 22954533,
+        "logIndex": 134,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Approval",
+        "eventSignature": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000858646372cc42e1a627fce94aa7a7033e7cf075a",
+          null
+        ],
+        "decodedData": {
+          "event": "Approval",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x858646372cc42e1a627fce94aa7a7033e7cf075a",
+          "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        },
+        "humanReadable": {
+          "action": "Approval of 115792089237316195423570985008687907853269984665640564039457584007913129639935 tokens",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x858646372cc42e1a627fce94aa7a7033e7cf075a",
+          "amount": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+        }
+      },
+      {
+        "transactionHash": "0xe1d15a5b4d04d135c28bf20ab57bedb835fe2e35cac49a53ba4d1033bb3cf9bf",
+        "blockNumber": 22954535,
+        "logIndex": 366,
+        "protocol": "Unknown",
+        "protocolType": "Unknown",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000000fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+          null
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+          "value": 2732001358771917
+        },
+        "humanReadable": {
+          "action": "Transfer of 2732001358771917 tokens",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+          "amount": 2732001358771917
+        }
+      }
+    ],
+    "Protocol": [
+      {
+        "transactionHash": "0x32ff485ded547a4e7f228569b76ae014260e4d8d9a6ea0e17739956c6c1bda10",
+        "blockNumber": 21014186,
+        "logIndex": 241,
+        "protocol": "Uniswap V3: NonfungiblePositionManager",
+        "protocolType": "Protocol",
+        "contractAddress": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "eventName": "Transfer",
+        "eventSignature": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x00000000000000000000000000000000000000000000000000000000000cd45c"
+        ],
+        "decodedData": {
+          "event": "Transfer",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value": 0
+        },
+        "humanReadable": {
+          "action": "Transfer of 0 tokens",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "amount": 0
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 205,
+        "protocol": "Aave V3 Pool",
+        "protocolType": "Protocol",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x00058a56ea94653cdf4f152d227ace22d4c00ad99e2a43f58cb7d9e3feb295f2",
+          "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 206,
+        "protocol": "Aave V3 Pool",
+        "protocolType": "Protocol",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+          "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 74,
+        "protocol": "Aave V3 Pool",
+        "protocolType": "Protocol",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x44c58d81365b66dd4b1a7f36c25aa97b8c71c361ee4937adc1a00000227db5dd",
+          "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          null
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 78,
+        "protocol": "Aave V3 Pool",
+        "protocolType": "Protocol",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown Event",
+        "eventSignature": [
+          "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+          "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        ],
+        "decodedData": null,
+        "humanReadable": {
+          "action": "Unknown event"
+        }
+      }
+    ]
+  }
+}
