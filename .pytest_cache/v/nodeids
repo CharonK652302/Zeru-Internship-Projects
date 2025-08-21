@@ -1,0 +1,8 @@
+[
+  "test_decoder.py::test_decode_empty_data",
+  "test_decoder.py::test_decode_transfer_event",
+  "test_decoder.py::test_event_transfer_signature",
+  "test_decoder.py::test_event_unknown_signature",
+  "test_decoder.py::test_protocol_known",
+  "test_decoder.py::test_protocol_unknown"
+]
